@@ -1,0 +1,20 @@
+{
+  "name": "linusochtone",
+  "description": "Linus och Tone",
+  "version": "0.0.0",
+  "main": "src/index.html",
+  "author": "",
+  "homepage": "https://github.com/csoLs/linusochtone#readme",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csoLs/linusochtone.git"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
