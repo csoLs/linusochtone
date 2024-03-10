@@ -1,3 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Linden+Hill:ital@0;1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background: #8e9f91;
+    min-height: 720px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 30px;
+}
+.bg-image {
+    position: fixed;
+    top: max(-30%, -200px);
+    left: -20%;
+    transform: rotate(120deg);
+    width: 100%;
+    max-width: 1000px;
+    z-index: -1;
+}
+.bg-image-2 {
+    position: fixed;
+    bottom: -10px;
+    right: 0;
+    width: 100%;
+    max-width: 1000px;
+    z-index: -1;
+}
+.main {
+    background: #fff;
+    width: calc(100vw - 60px);
+    max-width: 900px;
+    min-height: 1200px;
+    /* margin: 10vh auto 1r0vh; */
+    /* overflow: scroll; */
+    border-top-left-radius: 40vw 20vw;
+    border-top-right-radius: 40vw 20vw;
+    /* position: absolute; */
+    margin-bottom: 30px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /* font-style: normal; */
+}
+/* .linden-hill-regular {
+    font-family: "Linden Hill", serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+/* * {
+    font-family: "Linden Hill", serif;
+    font-weight: 400;
+    font-style: normal;
+} */

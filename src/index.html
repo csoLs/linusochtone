@@ -1,61 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./assets/favicon.svg">
-  <link href="./output.css" rel="stylesheet">
-  <title>Linus & Tone 2024 🫶🏻</title>
-</head>
-<body>
-  <div class="bg-white">
-    <header class="absolute inset-x-0 top-0 z-50">
-      <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon.svg" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Linus & Tone 2024 🫶🏻</title>
+  </head>
 
-        <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">Linus & Tone</span>
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
-          </a>
-        </div>
+  <!-- Linden Hill -->
+  <!-- Indiana signature -->
 
-        <div class="lg:flex lg:gap-x-12">
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900 mr-4">Info</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">RSVP</a>
-        </div>
-        <div class="lg:flex lg:flex-1 lg:justify-end"></div>
-      </nav>
+  <body>
+    <!-- from card design: #99BF9E
+  comparing to printed card: #8e9f91 -->
+    <!-- <div class="bg-white" style="background: #99BF9E"> -->
+    <img src="./assets/preview.png" class="fixed bg-image" />
+    <img src="./assets/preview (1).png" class="fixed bg-image-2" />
+    <!-- <img src="./assets/preview (1).png" style="transform: rotate(0deg)" /> -->
 
-    </header>
+    <section class="main">
+      <header class="inset-x-0">
+        <!-- <header class="absolute inset-x-0 top-0 z-50"> -->
+        <nav
+          class="flex items-center justify-center p-6 lg:px-8"
+          aria-label="Global"
+        >
+          <!-- <div class="flex lg:flex-1">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Linus & Tone bröllop 2024</span>
+              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+            </a>
+          </div> -->
+          <!-- <div class="flex lg:flex-1"></div> -->
+          <div class="flex gap-x-12 md:text-2xl">
+            <a href="#info" class="hover:underline-offset-4 hover:underline">
+              <h3>Info</h3>
+            </a>
+            <a href="#rsvp" class="hover:underline-offset-4 hover:underline">
+              <h3>RSVP</h3>
+            </a>
+          </div>
+          <!-- <div class="lg:flex lg:flex-1 lg:justify-end"></div> -->
+        </nav>
+      </header>
 
-    <div class="relative isolate px-6 pt-14 lg:px-8">
-      <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
-        <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-      </div>
+      <div class="relative isolate px-6 lg:px-8">
+        <!-- <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+          <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        </div> -->
 
-      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <!-- <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56"> -->
 
         <!-- Remove/add hidden class and update copy if/when updates -->
         <div class="mb-8 flex justify-center">
-          <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            Uppdaterat 2024-02-05. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Senaste nytt <span aria-hidden="true">&rarr;</span></a>
+          <div
+            class="text-center relative rounded-full px-6 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
+          >
+            Uppdaterat 2024-02-05
+            <a href="#" class="font-semibold text-indigo-600"
+              ><span class="absolute inset-0" aria-hidden="true"></span>Senaste
+              nytt <span aria-hidden="true">&rarr;</span></a
+            >
           </div>
         </div>
 
-        <div class="text-center">
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Lorem ipsum</h1>
-          <p class="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
-          <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">RSVP</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Mer info <span aria-hidden="true">→</span></a>
+        <p
+          class="rounded-full ring-1 ring-gray-900/10 px-10 py-5 mx-2 md:mx-6 lg:mx-20 mb-14 text-lg leading-8 text-gray-600"
+        >
+          Det är med stor glädje som Linus & Tone bjuder in till sitt bröllop
+          hösten 2024. Vi har planerat en liten och intim utomhusvigsel på Ängsö
+          med efterföljande brudskål. Därefter rör vi oss tillbaka till Västerås
+          för att få dela en senare lunch tillsammans. Vi hoppas innerligt att
+          alla bjudna kan komma och dela denna dag med oss 🫶🏻
+        </p>
+
+        <div class="mx-2 md:mx-6 lg:mx-20 mb-14" id="info">
+          <h1
+            class="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+          >
+            Praktisk information
+          </h1>
+          <p class="text-center mt-6 text-lg leading-8 text-gray-600">
+            Barn är välkomna på vigseln men när vi fortsätter mot restaurangen
+            finns bara plats för de namngivna inbjudna gästerna.
+          </p>
+          <p class="text-center mt-6 text-lg leading-8 text-gray-600">
+            Vi har redan allt vi behöver så presenter undanbedes. Om ni ändå
+            vill ge något uppskattas ett bidrag till bröllopsresan.
+          </p>
+
+          <h3 class="text-2xl font-bold text-gray-900 inline">Klädkod:</h3>
+          <p class="text-lg leading-8 text-gray-600 inline">Kostym</p>
+          <br />
+          <h3 class="text-2xl font-bold text-gray-900 inline">Plats:</h3>
+          <p class="text-lg leading-8 text-gray-600 inline">
+            Utomhus Ängsö, Västerås (precisieras senare)
+          </p>
+          <br />
+          <h3 class="text-2xl font-bold text-gray-900 inline">Tid:</h3>
+          <p class="text-lg leading-8 text-gray-600 inline">
+            Söndag 22/9 2024 kl 11
+          </p>
+          <br />
+          <h3 class="text-2xl font-bold text-gray-900 inline">OSA:</h3>
+          <p class="text-lg leading-8 text-gray-600 inline">
+            Senast 1/8 2024 önskar vi ert svar
+          </p>
+          <br />
+
+          <!-- <div class="my-10 flex items-center justify-center gap-x-6">
+            <a
+              href="#"
+              class="rounded-xl bg-green-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >RSVP</a
+            >
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
+              >Mer info <span aria-hidden="true">→</span></a
+            >
+          </div> -->
+        </div>
+
+        <!-- color: #99BF9E -->
+
+        <div class="mb-14" id="rsvp">
+          <h1
+            class="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+          >
+            Svar
+          </h1>
+
+          <p class="mb-6 text-center text-lg text-gray-500">
+            Ett svar per gäst
+          </p>
+
+          <div class="flex flex-col items-center">
+            <form
+              class="w-full max-w-lg mb-6"
+              action="https://fabform.io/f/Iq7c4fB"
+              method="post"
+            >
+              <div class="md:flex mb-3">
+                <div class="md:w-1/4">
+                  <label
+                    class="block text-gray-500 font-bold md:text-right md:pt-2 mb-1 md:mb-0 pr-4"
+                    for="inline-full-name"
+                  >
+                    <h5>Namn</h5>
+                  </label>
+                </div>
+                <div class="md:w-2/4">
+                  <input
+                    class="bg-gray-100 appearance-none border-2 border-gray-100 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-green-500"
+                    id="inline-full-name"
+                    name="name"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+
+              <div class="md:flex mb-3">
+                <div class="md:w-1/4">
+                  <label
+                    class="block text-gray-500 font-bold md:text-right md:pt-2 mb-1 md:mb-0 pr-4"
+                    for="email"
+                  >
+                    <h5>Email</h5>
+                  </label>
+                </div>
+                <div class="md:w-2/4">
+                  <input
+                    class="bg-gray-100 appearance-none border-2 border-gray-100 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-green-500"
+                    id="email"
+                    name="email"
+                    type="text"
+                    value=""
+                  />
+                  <span class="text-gray-500 italic"
+                    >Kontaktuppgifter till alla gäster kommer underlätta när vi
+                    har mer information att delge</span
+                  >
+                </div>
+              </div>
+
+              <div class="md:flex mb-3">
+                <div class="md:w-1/4">
+                  <label
+                    class="block text-gray-500 font-bold md:text-right md:pt-2 mb-1 md:mb-0 pr-4"
+                    for="inline-misc"
+                  >
+                    <h5>Övriga upplysningar</h5>
+                  </label>
+                </div>
+                <div class="md:w-2/4">
+                  <textarea
+                    class="bg-gray-100 appearance-none border-2 border-gray-100 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-green-500"
+                    id="inline-misc"
+                    name="misc"
+                    type="text"
+                    placeholder="Specialkost eller annat som är bra för oss att känna till"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="md:flex md:items-center mb-3">
+                <div class="md:w-1/4"></div>
+                <label class="md:w-2/4 block text-gray-500 font-bold">
+                  <input
+                    class="mr-2 leading-tight"
+                    type="checkbox"
+                    name="will-show"
+                    checked
+                  />
+                  <span class="text-sm"> JA, jag kommer 🫶🏻 </span>
+                </label>
+              </div>
+
+              <div class="md:flex md:items-center">
+                <div class="md:w-1/4"></div>
+                <div class="md:w-2/4">
+                  <button
+                    class="shadow bg-green-600 hover:bg-green-500 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded w-full"
+                    type="submit"
+                  >
+                    Skicka
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
-      </div>
 
-      <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
-        <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        <div
+          class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          aria-hidden="true"
+        >
+          <div
+            class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+            style="
+              clip-path: polygon(
+                74.1% 44.1%,
+                100% 61.6%,
+                97.5% 26.9%,
+                85.5% 0.1%,
+                80.7% 2%,
+                72.5% 32.5%,
+                60.2% 62.4%,
+                52.4% 68.1%,
+                47.5% 58.3%,
+                45.2% 34.5%,
+                27.5% 76.7%,
+                0.1% 64.9%,
+                17.9% 100%,
+                27.6% 76.8%,
+                76.1% 97.7%,
+                74.1% 44.1%
+              );
+            "
+          ></div>
+        </div>
+
+        <!-- <img src="./assets/preview.png" style="transform: rotate(30deg)" />
+        <img src="./assets/preview (1).png" style="transform: rotate(0deg)" /> -->
       </div>
-    </div>
-  </div>
-</body>
+    </section>
+  </body>
 </html>
