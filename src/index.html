@@ -55,7 +55,7 @@
         <!-- Remove/add hidden class and update copy if/when updates -->
         <div class="mb-8 flex justify-center">
           <div
-            class="text-center relative rounded-full px-6 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
+            class="hidden text-center relative rounded-full px-6 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
           >
             Uppdaterat 2024-02-05
             <a href="#" class="font-semibold text-indigo-600"
@@ -65,49 +65,93 @@
           </div>
         </div>
 
-        <p
-          class="rounded-full ring-1 ring-gray-900/10 px-10 py-5 mx-2 md:mx-6 lg:mx-20 mb-14 text-lg leading-8 text-gray-600"
+        <!-- class="rounded-full ring-1 ring-gray-900/10 px-10 py-5 mx-2 md:mx-6 lg:mx-20 mb-14 text-lg leading-8 text-gray-600" -->
+        <!-- <p
+          class="px-10 py-5 mx-2 md:mx-6 lg:mx-20 mb-14 text-lg leading-8 text-gray-600"
+        > -->
+        <div
+          class="w-full max-w-lg mb-14 mx-auto pt-10 text-lg leading-8 text-gray-600"
         >
-          Det är med stor glädje som Linus & Tone bjuder in till sitt bröllop
-          hösten 2024. Vi har planerat en liten och intim utomhusvigsel på Ängsö
-          med efterföljande brudskål. Därefter rör vi oss tillbaka till Västerås
-          för att få dela en senare lunch tillsammans. Vi hoppas innerligt att
-          alla bjudna kan komma och dela denna dag med oss 🫶🏻
-        </p>
+          Det är med stor glädje som vi bjuder in er till vårt bröllop hösten
+          2024. Vi har planerat en liten och intim utomhusvigsel på Ängsö med
+          efterföljande brudskål. Därefter rör vi oss tillbaka till Västerås för
+          att dela en senare lunch tillsammans. Vi hoppas innerligt att ni kan
+          dela denna dag med oss. 🫶🏻
+        </div>
 
-        <div class="mx-2 md:mx-6 lg:mx-20 mb-14" id="info">
+        <hr class="mb-14" />
+
+        <div class="mb-14" id="info">
           <h1
             class="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
           >
             Praktisk information
           </h1>
-          <p class="text-center mt-6 text-lg leading-8 text-gray-600">
-            Barn är välkomna på vigseln men när vi fortsätter mot restaurangen
-            finns bara plats för de namngivna inbjudna gästerna.
-          </p>
-          <p class="text-center mt-6 text-lg leading-8 text-gray-600">
-            Vi har redan allt vi behöver så presenter undanbedes. Om ni ändå
-            vill ge något uppskattas ett bidrag till bröllopsresan.
-          </p>
+          <div class="w-full max-w-lg mb-6 mx-auto">
+            <p class="text-center mt-6 text-lg leading-8 text-gray-600">
+              Barn är välkomna på vigseln men när vi fortsätter mot restaurangen
+              finns endast plats för de namngivna inbjudna gästerna.
+            </p>
+            <p class="text-center mt-6 text-lg leading-8 text-gray-600">
+              Vid dåligt väder kan plats ändras med kort varsel. Vi kommer
+              isåfall att maila ut ny plats och ev ändring av tid till den
+              mailadress ni anger när ni svarar på inbjudan.
+            </p>
+            <p class="text-center mt-6 text-lg leading-8 text-gray-600">
+              Vid frågor går det bra att höra av sig till Tone eller Linus. För
+              eventuella frågor samma dag som vigseln får ni gärna kontakta
+              brudparets föräldrar?
+            </p>
+            <p class="text-center mt-6 text-lg leading-8 text-gray-600">
+              Allt vi önskar är att dela denna dag med er. Om ni ändå vill ge
+              något uppskattas ett bidrag till bröllopsresan.
+            </p>
+          </div>
 
-          <h3 class="text-2xl font-bold text-gray-900 inline">Klädkod:</h3>
-          <p class="text-lg leading-8 text-gray-600 inline">Kostym</p>
-          <br />
-          <h3 class="text-2xl font-bold text-gray-900 inline">Plats:</h3>
-          <p class="text-lg leading-8 text-gray-600 inline">
-            Utomhus Ängsö, Västerås (precisieras senare)
-          </p>
-          <br />
-          <h3 class="text-2xl font-bold text-gray-900 inline">Tid:</h3>
-          <p class="text-lg leading-8 text-gray-600 inline">
-            Söndag 22/9 2024 kl 11
-          </p>
-          <br />
-          <h3 class="text-2xl font-bold text-gray-900 inline">OSA:</h3>
-          <p class="text-lg leading-8 text-gray-600 inline">
-            Senast 1/8 2024 önskar vi ert svar
-          </p>
-          <br />
+          <hr class="my-8" />
+
+          <div class="flex flex-col items-center">
+            <div class="w-full max-w-lg mb-6">
+              <div class="md:flex mb-3 flex-row items-baseline">
+                <div class="md:w-1/4 pr-2 md:text-right">
+                  <h3 class="text-2xl font-bold text-gray-900">Klädkod:</h3>
+                </div>
+                <div class="md:w-2/4 text-lg text-gray-600 align-bottom">
+                  Kostym
+                </div>
+              </div>
+
+              <div class="md:flex mb-3 flex-row items-baseline">
+                <div class="md:w-1/4 pr-2 md:text-right">
+                  <h3 class="text-2xl font-bold text-gray-900">Plats:</h3>
+                </div>
+                <div class="md:w-2/4 text-lg text-gray-600 align-bottom">
+                  Utomhus Ängsö, Västerås (preciseras senare med uppdatering här
+                  på hemsidan)
+                </div>
+              </div>
+
+              <div class="md:flex mb-3 flex-row items-baseline">
+                <div class="md:w-1/4 pr-2 md:text-right">
+                  <h3 class="text-2xl font-bold text-gray-900">Tid:</h3>
+                </div>
+                <div class="md:w-2/4 text-lg text-gray-600 align-bottom">
+                  Söndag 22/9 2024 kl 11
+                </div>
+              </div>
+
+              <div class="md:flex mb-3 flex-row items-baseline">
+                <div class="md:w-1/4 pr-2 md:text-right">
+                  <h3 class="text-2xl font-bold text-gray-900">OSA:</h3>
+                </div>
+                <div class="md:w-2/4 text-lg text-gray-600 align-bottom">
+                  Senast 1/8 2024 önskar vi ert svar
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="mb-6" />
 
           <!-- <div class="my-10 flex items-center justify-center gap-x-6">
             <a

@@ -665,6 +665,21 @@ video {
   margin-right: 0.5rem;
 }
 
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-48{
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -729,6 +744,10 @@ video {
   height: 2rem;
 }
 
+.h-full{
+  height: 100%;
+}
+
 .w-\[36\.125rem\]{
   width: 36.125rem;
 }
@@ -781,6 +800,10 @@ video {
           appearance: none;
 }
 
+.flex-row{
+  flex-direction: row;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -791,6 +814,14 @@ video {
 
 .items-center{
   align-items: center;
+}
+
+.items-baseline{
+  align-items: baseline;
+}
+
+.justify-end{
+  justify-content: flex-end;
 }
 
 .justify-center{
@@ -1063,8 +1094,36 @@ video {
   padding-right: 1rem;
 }
 
+.pr-2{
+  padding-right: 0.5rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
+}
+
 .text-center{
   text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.text-end{
+  text-align: end;
+}
+
+.align-baseline{
+  vertical-align: baseline;
+}
+
+.align-bottom{
+  vertical-align: bottom;
 }
 
 .text-4xl{
@@ -1124,6 +1183,10 @@ video {
 
 .leading-tight{
   line-height: 1.25;
+}
+
+.leading-4{
+  line-height: 1rem;
 }
 
 .tracking-tight{
